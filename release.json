@@ -1,27 +1,27 @@
 {
-  "tag": "playtest-2026-09-12-rooftops-1",
+  "tag": "playtest-2026-09-12-controls-2",
   "url": "https://hyperkodi.github.io/kori-pro-skater-playtest/",
-  "archive_sha256": "ad2f93e4c413964ba69337901220ccde975201bcaa7dc229a0d006dce659ee10",
+  "archive_sha256": "b69723a2b412e49c2fbefd5848c9741bc9560e3ef898130c82e42c9e5ba303f8",
   "files": {
     ".nojekyll": {
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
-    "Build/001bca1f77bf4f73722c756465737588.data.unityweb": {
-      "bytes": 236438800,
-      "sha256": "a785865c2f370f6e0b3008483503cffd1bdc1ef2ebfc75da7e8e2ffb6739bca9"
+    "Build/54b7c98a0209cad969c7522aabbfbdc6.framework.js.unityweb": {
+      "bytes": 89156,
+      "sha256": "b6e6dd2dad40be638d75b3fda41537969dfd0e90948f1e44671cfd0dd9f583da"
     },
-    "Build/77beba162f19513b900036f9fa2540f1.wasm.unityweb": {
-      "bytes": 12192546,
-      "sha256": "44c9de5da19cf87568a986b0950ee648aa086a9715f9cf8ef6f85c5aa89cee02"
-    },
-    "Build/b14dd95fee63fdf361c4d38ba7d1d026.loader.js": {
+    "Build/71b32ac29776a96dca78f96d64df7863.loader.js": {
       "bytes": 47867,
-      "sha256": "4257de7b8485cabec2e646f588a37c38d91d6c81c89b7cb73cb286660d6b6a56"
+      "sha256": "dcd259037492cd6ed4b04be0209574cab4f4d2ce1511cb41c0076a968a810ccb"
     },
-    "Build/ec29f23694b31543120aa6e910d03976.framework.js.unityweb": {
-      "bytes": 89149,
-      "sha256": "d1f8f5baf6919d8176e0087c750bfd1674e0a2c7fb24898af9e0114018263680"
+    "Build/9e88dd7c81e888258894ad1fd5276157.data.unityweb": {
+      "bytes": 236440313,
+      "sha256": "25792449dbd20b8e43ae2d8be324180a4f34ab3054486b50d224e3317c1a3f7b"
+    },
+    "Build/c110f023a227dee2b34e869115d9f2b6.wasm.unityweb": {
+      "bytes": 12200821,
+      "sha256": "1faf8038b43ffda6ff727177f44642ce1fa670cac6854145a1f2918c0f45efb1"
     },
     "GeneralSans-FFL.txt": {
       "bytes": 12734,
@@ -32,8 +32,8 @@
       "sha256": "f5cfd05c1dafa77e944670528a81958f7c21b7517bafd2a8796a3aa17e56b9ce"
     },
     "index.html": {
-      "bytes": 7897,
-      "sha256": "fe1726cff45d9e09f117e4866f8dbd049f84a81c59fe073320a27ddf536859d8"
+      "bytes": 7888,
+      "sha256": "89b5d0c66a51483d951592271ad295183907964efb6bc761cdbb19d87a9f8da4"
     },
     "PermanentMarker-LICENSE.txt": {
       "bytes": 11358,
@@ -45,7 +45,7 @@
     },
     "playtest.js": {
       "bytes": 1229,
-      "sha256": "d533901a32b8f20a2da3e439f00bbb3b7a7d3ecf775a5fcc59346ae63e79ef80"
+      "sha256": "4a37ee5fee0933ff342dc0624af30d3ef6d348b05641e8f3ba83bca295876940"
     },
     "preview.png": {
       "bytes": 1211362,

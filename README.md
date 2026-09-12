@@ -6,7 +6,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 ## Playing
 
-- Desktop: WASD to skate, hold/release Space to ollie, Z flips, X grinds, C unlocked specials, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
+- Desktop: arrow keys to skate, hold/release A to ollie, D flips, S grinds, C unlocked specials, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
 - Phone: open the link in Chrome or your device browser, turn landscape, and use the thumb joysticks and action buttons. Fullscreen is available from the header where supported.
 - The first download is approximately 249 MB. Progress is stored in this browser on this device.
 
@@ -14,7 +14,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Try the three-level garage, mall roof gap, rooftop cable grind, waterslides, map, and five-minute timer. The latest source passed 261 native gameplay checks before this browser export; community browser/device testing is still needed.
+Try the three-level garage, mall roof gap, rooftop cable grind, waterslides, map, and five-minute timer. The control update passed 82 native gameplay checks, including arrow-key trick sequences, A/S/D actions, grinds and touch joysticks in portrait and landscape. Community browser/device testing is still needed.
 
 ## Publishing
 
