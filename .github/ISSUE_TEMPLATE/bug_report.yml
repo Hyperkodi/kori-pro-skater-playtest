@@ -1,0 +1,25 @@
+name: Playtest bug
+description: Report something that went wrong in Kori Pro Skater.
+title: "[Playtest] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include a screenshot or short video if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      placeholder: Location on the map, buttons used, and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: device
+    attributes:
+      label: Device and build
+      description: Paste Copy debug info from the playtest page here. Add your phone/computer model.
+    validations:
+      required: true

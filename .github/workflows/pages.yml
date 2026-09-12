@@ -1,0 +1,38 @@
+name: Deploy community playtest
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Download tested browser release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=$(python3 -c "import json; print(json.load(open('release.json'))['tag'])")
+          gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern browser-build.zip --dir download
+      - name: Verify and unpack the release
+        run: python3 verify_release.py download/browser-build.zip _site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
