@@ -15,7 +15,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: controllable halfpipe spins and body flips, landing assistance, unfinished-flip bails, and a compact mobile HUD. Existing pink tail, garage and rail fixes are retained. Native simulation/input checks are recorded with the release; physical phone playtesting remains useful.
+Latest update: reverse travel now inverts left/right steering. The halfpipe spins, body flips, landing assistance, unfinished-flip bails and compact mobile HUD are retained. Existing pink tail, garage and rail fixes are retained. Native simulation/input checks are recorded with the release; physical phone playtesting remains useful.
 
 ## Publishing
 
