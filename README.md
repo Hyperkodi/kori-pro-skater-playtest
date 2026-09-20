@@ -6,16 +6,17 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 ## Playing
 
-- Desktop: arrow keys to skate, hold/release A to ollie, D flips, S grinds, C unlocked specials, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
-- Aerials: hold left/right in the air to spin. Release Ollie after takeoff, then hold it again with up/down to frontflip/backflip. Land upright, within 25 degrees of forward or backward alignment, to score.
+- Desktop: arrow keys to skate, hold/release Space to ollie, A flips, S grinds, D shove-its, F unlocked specials, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
+- Aerials: tap left/right in the air for 180 degrees; hold to keep spinning and release to finish the current half-turn. For deliberate body flips, hold V (controller RB; touch OLLIE + TRICK) with up/down. Ollie alone never triggers body flips. Land upright, within 25 degrees of forward or backward alignment, to score.
 - Phone: open the link in Chrome or your device browser, turn landscape, and use the MOVE/LOOK joysticks with Ollie, Grind and Trick. Special appears after unlocking. Up + Trick is a shove-it; Down + Trick is a grab. Walking is in Menu. Fullscreen is available from the header where supported.
+- Shove-its: tap D 1-6 times quickly for 180/360/540/720/900/1080 degrees. On controller use Y; on touch flick MOVE up then tap TRICK repeatedly. Keep taps within 0.30 seconds; higher rotations need more airtime.
 - The first download is approximately 249 MB. Progress is stored in this browser on this device.
 
 ## Reporting a bug
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: rail bars and support posts now have physical collision geometry, while grind catches and connected corner transfers remain supported. Desktop browsers no longer show phone joysticks or action buttons merely because Unity reports a touch device. Phones and tablets keep the compact joystick HUD. Wall collisions, 25-degree spin landing bails, reverse steering, pink tail and garage fixes are retained.
+Latest update: Space/A/S/D/F defaults with safe migration of previous default bindings, escalating shove-it chains, world-axis halfpipe spins and deliberate body-flip controls. Preserves solid rails, desktop/mobile HUD detection, 25-degree spin landing bails and previous level fixes.
 
 ## Publishing
 
