@@ -14,7 +14,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Try the three-level garage, mall roof gap, rooftop cable grind, waterslides, map, and five-minute timer. The control update passed 82 native gameplay checks, including arrow-key trick sequences, A/S/D actions, grinds and touch joysticks in portrait and landscape. Community browser/device testing is still needed.
+Latest update: pink tail, three high-speed bail variations, safer rail endings and dock corners, a street-connected three-level garage, and cleared utility cables. Verification covered 79,728 rail endpoint cases across 13,288 segments, garage routes, bail recovery, a continuous 1.8 km cable grind, and the mall roof gap in both directions. Native tests passed; community browser/device testing is still useful.
 
 ## Publishing
 
