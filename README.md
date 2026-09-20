@@ -15,7 +15,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: stronger wall, platform-side and ceiling collisions; recovery from overlapping solids; repaired waterslide entrance clearances. Spins must land within 25 degrees of forward or backward alignment or Kori bails. Automatic yaw correction no longer rescues sideways landings. Reverse steering, the compact joystick HUD, pink tail, garage and rail fixes are retained.
+Latest update: rail bars and support posts now have physical collision geometry, while grind catches and connected corner transfers remain supported. Desktop browsers no longer show phone joysticks or action buttons merely because Unity reports a touch device. Phones and tablets keep the compact joystick HUD. Wall collisions, 25-degree spin landing bails, reverse steering, pink tail and garage fixes are retained.
 
 ## Publishing
 
