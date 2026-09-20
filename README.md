@@ -7,14 +7,15 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 ## Playing
 
 - Desktop: arrow keys to skate, hold/release A to ollie, D flips, S grinds, C unlocked specials, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
-- Phone: open the link in Chrome or your device browser, turn landscape, and use the thumb joysticks and action buttons. Fullscreen is available from the header where supported.
+- Aerials: hold left/right in the air to spin. Release Ollie after takeoff, then hold it again with up/down to frontflip/backflip. Land upright to score.
+- Phone: open the link in Chrome or your device browser, turn landscape, and use the MOVE/LOOK joysticks with Ollie, Grind and Trick. Special appears after unlocking. Up + Trick is a shove-it; Down + Trick is a grab. Walking is in Menu. Fullscreen is available from the header where supported.
 - The first download is approximately 249 MB. Progress is stored in this browser on this device.
 
 ## Reporting a bug
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: pink tail, three high-speed bail variations, safer rail endings and dock corners, a street-connected three-level garage, and cleared utility cables. Verification covered 79,728 rail endpoint cases across 13,288 segments, garage routes, bail recovery, a continuous 1.8 km cable grind, and the mall roof gap in both directions. Native tests passed; community browser/device testing is still useful.
+Latest update: controllable halfpipe spins and body flips, landing assistance, unfinished-flip bails, and a compact mobile HUD. Existing pink tail, garage and rail fixes are retained. Native simulation/input checks are recorded with the release; physical phone playtesting remains useful.
 
 ## Publishing
 
