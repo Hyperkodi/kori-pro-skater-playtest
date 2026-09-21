@@ -18,7 +18,7 @@ Use **Report a bug** on the page, or share a screenshot/video and the **Copy deb
 
 If the browser closes or reloads during play, reopen this same link and use **Copy debug info**. A short, bounded history of game state and memory is saved locally and included from the previous visit. Runtime errors now say the game stopped rather than incorrectly reporting a loading failure. This diagnostic update does not claim to fix an unconfirmed device crash.
 
-Latest update: fixed striped road surfaces and overlapping hill paving. Roads, sidewalks, markings, plaza surfaces and drains follow a common ground mesh; brick and limestone paving is trimmed out of road lanes. All 19,985 lane samples across 37 roads passed, along with the ground mesh audit and matched hill screenshots. Rail recovery, halfpipe fixes, mobile startup improvements, local crash history and closed garage ramp facades remain included. Physical iPhone Telegram confirmation remains pending.
+Latest update: halfpipe takeoffs and ordinary spins stay upright around the vertical axis. Unsteered airs smoothly turn back toward the transition instead of snapping 180 degrees at the apex; the assisted turn earns no spin points. All 2,567 movement and collision checks passed across transitions, forward/reverse approaches, spins, deliberate flips, landings, walls and rails. Intentional flips and the 25-degree landing rule remain supported. The previous hill-surface repair, rail recovery, mobile startup improvements, local crash history and closed garage ramp facades remain included. Physical iPhone Telegram confirmation remains pending.
 
 ## Publishing
 
