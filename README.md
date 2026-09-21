@@ -10,7 +10,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 - Aerials: tap left/right in the air for 180 degrees; hold to keep spinning and release to finish the current half-turn. For deliberate body flips, hold V (controller RB; touch OLLIE + TRICK) with up/down. Ollie alone never triggers body flips. Land upright, within 25 degrees of forward or backward alignment, to score.
 - Phone: open the link (including from Telegram), turn landscape, and use the MOVE/LOOK joysticks with Ollie, Grind and Trick. Special appears after unlocking. Up + Trick is a shove-it; Down + Trick is a grab. Walking is in Menu. Fullscreen is available from the header where supported.
 - Shove-its: tap D 1-6 times quickly for 180/360/540/720/900/1080 degrees. On controller use Y; on touch flick MOVE up then tap TRICK repeatedly. Keep taps within 0.30 seconds; higher rotations need more airtime.
-- Phones automatically receive a lighter edition (about 155 MB); the desktop edition is about 248 MB. Phone browsers require WebGL 2 and ASTC texture support. Progress is stored in this browser on this device.
+- Phones automatically receive a lighter edition (about 168 MB); the desktop edition is about 261 MB. Phone browsers require WebGL 2 and ASTC texture support. Progress is stored in this browser on this device.
 
 ## Reporting a bug
 
@@ -18,7 +18,7 @@ Use **Report a bug** on the page, or share a screenshot/video and the **Copy deb
 
 If the browser closes or reloads during play, reopen this same link and use **Copy debug info**. A short, bounded history of game state and memory is saved locally and included from the previous visit. Runtime errors now say the game stopped rather than incorrectly reporting a loading failure. This diagnostic update does not claim to fix an unconfirmed device crash.
 
-Latest update: fixed getting stranded against rail shoulders after a line ends. Falling riders can slide clear of sloped contacts, and solid prop tops now provide landing support. The rail recovery and collision suite passed all 877 checks, including real bars, wall collisions and dock corners. The halfpipe fixes, mobile startup improvements, local crash history and closed garage ramp facades remain included. Physical iPhone Telegram confirmation remains pending.
+Latest update: fixed striped road surfaces and overlapping hill paving. Roads, sidewalks, markings, plaza surfaces and drains follow a common ground mesh; brick and limestone paving is trimmed out of road lanes. All 19,985 lane samples across 37 roads passed, along with the ground mesh audit and matched hill screenshots. Rail recovery, halfpipe fixes, mobile startup improvements, local crash history and closed garage ramp facades remain included. Physical iPhone Telegram confirmation remains pending.
 
 ## Publishing
 
