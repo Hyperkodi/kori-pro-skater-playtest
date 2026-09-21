@@ -1,7 +1,7 @@
 {
-  "tag": "playtest-2026-09-21-halfpipe-clearance",
+  "tag": "playtest-2026-09-21-runtime-trace",
   "url": "https://hyperkodi.github.io/kori-pro-skater-playtest/",
-  "archive_sha256": "5860eb6fb46d12bc74b5735602c88f10781cbb8b718d3be8bcc23488391101bc",
+  "archive_sha256": "8f64aa0ac19e1bd3d38eadc53c079c0f53951d94c353c79bd71cc5059681d9ae",
   "files": {
     ".nojekyll": {
       "bytes": 0,
@@ -32,8 +32,8 @@
       "sha256": "f5cfd05c1dafa77e944670528a81958f7c21b7517bafd2a8796a3aa17e56b9ce"
     },
     "index.html": {
-      "bytes": 10846,
-      "sha256": "6bea22f0a180ab0101923c1668482eb6c40c5f9fa8ab26499197f91dfd486551"
+      "bytes": 12036,
+      "sha256": "af9996d04a6fb28a4d2f195f2acbb6bf45c31abeef5f604a371d52be532e416f"
     },
     "Mobile/Build/1216224d32a205e8fe06930ab5ec4984.wasm.unityweb": {
       "bytes": 12228000,
@@ -64,8 +64,8 @@
       "sha256": "28f82c8a7943cb8e9d599f8554da1d4fc75dbcf69b9885ad6c0611d20c6946c5"
     },
     "playtest.js": {
-      "bytes": 1382,
-      "sha256": "49f501742a1c30b1835541b7c9c080a320dc17a3415508ab8d925922e454a36a"
+      "bytes": 1377,
+      "sha256": "edb2993c1b23ff71fc6785d04710e071ec02c327fda88ec42ffa2fceb01699d9"
     },
     "preview.png": {
       "bytes": 1214318,
