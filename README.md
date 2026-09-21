@@ -16,7 +16,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: Space/A/S/D/F defaults with safe migration of previous default bindings, escalating shove-it chains, world-axis halfpipe spins and deliberate body-flip controls. Preserves solid rails, desktop/mobile HUD detection, 25-degree spin landing bails and previous level fixes.
+Latest update: softer blush-pink tail and plume fibres. Includes Space/A/S/D/F defaults with safe migration of previous default bindings, escalating shove-it chains, world-axis halfpipe spins and deliberate body-flip controls. Preserves solid rails, desktop/mobile HUD detection, 25-degree spin landing bails and previous level fixes.
 
 ## Publishing
 
