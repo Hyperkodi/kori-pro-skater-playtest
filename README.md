@@ -16,7 +16,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: phone startup now uses the dedicated mobile Forward renderer and strips unused CPU copies of city meshes before loading. The loading cover waits for city frames, retains graphics failures, and saves a local startup trace for Copy debug info. Includes the closed garage ramp facades. Desktop Chromium/WebKit and the phone export are tested on PC; physical iPhone Telegram confirmation remains pending.
+Latest update: fixed premature bails on halfpipe transitions. Kori's collision shape now follows the ramp curve instead of striking the adjoining deck before reaching the lip. Corrected curved-ramp perimeter wall faces. All 299 Unity checks passed across seven halfpipes, quarterpipes and bowls, including angled approaches, spins, landings and real obstacle collisions. The mobile startup improvements and closed garage ramp facades remain included. Physical iPhone Telegram confirmation remains pending.
 
 ## Publishing
 
