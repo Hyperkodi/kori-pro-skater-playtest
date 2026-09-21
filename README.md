@@ -8,15 +8,15 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 - Desktop: arrow keys to skate, hold/release Space to ollie, A flips, S grinds, D shove-its, F unlocked specials, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
 - Aerials: tap left/right in the air for 180 degrees; hold to keep spinning and release to finish the current half-turn. For deliberate body flips, hold V (controller RB; touch OLLIE + TRICK) with up/down. Ollie alone never triggers body flips. Land upright, within 25 degrees of forward or backward alignment, to score.
-- Phone: open the link in Chrome or your device browser, turn landscape, and use the MOVE/LOOK joysticks with Ollie, Grind and Trick. Special appears after unlocking. Up + Trick is a shove-it; Down + Trick is a grab. Walking is in Menu. Fullscreen is available from the header where supported.
+- Phone: open the link (including from Telegram), turn landscape, and use the MOVE/LOOK joysticks with Ollie, Grind and Trick. Special appears after unlocking. Up + Trick is a shove-it; Down + Trick is a grab. Walking is in Menu. Fullscreen is available from the header where supported.
 - Shove-its: tap D 1-6 times quickly for 180/360/540/720/900/1080 degrees. On controller use Y; on touch flick MOVE up then tap TRICK repeatedly. Keep taps within 0.30 seconds; higher rotations need more airtime.
-- Phones automatically receive a lighter edition (about 158 MB); the desktop edition is about 248 MB. Phone browsers require WebGL 2 and ASTC texture support. Progress is stored in this browser on this device.
+- Phones automatically receive a lighter edition (about 155 MB); the desktop edition is about 248 MB. Phone browsers require WebGL 2 and ASTC texture support. Progress is stored in this browser on this device.
 
 ## Reporting a bug
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: closed the exterior holes beside both parking garage ramps with continuous concrete walls from foundation to roof edge. Clear ramp lanes, landing turns and grindable coping remain. All 87 facade, containment and driving-route checks passed. Includes the lighter phone edition and browser startup collider fix. Physical iPhone launch-crash confirmation remains pending community retesting.
+Latest update: phone startup now uses the dedicated mobile Forward renderer and strips unused CPU copies of city meshes before loading. The loading cover waits for city frames, retains graphics failures, and saves a local startup trace for Copy debug info. Includes the closed garage ramp facades. Desktop Chromium/WebKit and the phone export are tested on PC; physical iPhone Telegram confirmation remains pending.
 
 ## Publishing
 
