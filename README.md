@@ -18,7 +18,7 @@ Use **Report a bug** on the page, or share a screenshot/video and the **Copy deb
 
 If the browser closes or reloads during play, reopen this same link and use **Copy debug info**. A short, bounded history of game state and memory is saved locally and included from the previous visit. Runtime errors now say the game stopped rather than incorrectly reporting a loading failure. This diagnostic update does not claim to fix an unconfirmed device crash.
 
-Latest update: fixed premature bails on halfpipe transitions. Kori's collision shape now follows the ramp curve instead of striking the adjoining deck before reaching the lip. Corrected curved-ramp perimeter wall faces. All 299 Unity checks passed across seven halfpipes, quarterpipes and bowls, including angled approaches, spins, landings and real obstacle collisions. The mobile startup improvements and closed garage ramp facades remain included. Physical iPhone Telegram confirmation remains pending.
+Latest update: fixed getting stranded against rail shoulders after a line ends. Falling riders can slide clear of sloped contacts, and solid prop tops now provide landing support. The rail recovery and collision suite passed all 877 checks, including real bars, wall collisions and dock corners. The halfpipe fixes, mobile startup improvements, local crash history and closed garage ramp facades remain included. Physical iPhone Telegram confirmation remains pending.
 
 ## Publishing
 
