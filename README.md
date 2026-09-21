@@ -16,7 +16,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 Use **Report a bug** on the page, or share a screenshot/video and the **Copy debug info** text in the Telegram community. Include the map location, steps that caused the problem, device model, and what you expected. The game does not automatically upload debug information.
 
-Latest update: dedicated lighter phone edition, smaller mobile textures and pedestrian cast, lower mobile rendering defaults, and missing runtime collider types preserved. Includes sequential parking garage ramps with concrete supports, the softer blush-pink tail, and the existing Space/A/S/D/F controls. Desktop retains its full pedestrian cast. Physical iPhone launch-crash confirmation is pending community retesting.
+Latest update: continuous 1.4-metre concrete walls on both sides of both parking garage ramps, with solid collision, clear landing turns and grindable coping. All 45 garage wall and route checks passed. Includes the lighter phone edition, browser startup collider fix, sequential garage ramps with supports, and the softer blush-pink tail. Physical iPhone launch-crash confirmation remains pending community retesting.
 
 ## Publishing
 
