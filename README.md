@@ -10,7 +10,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 - Classic aerials: tap left/right in the air for 180 degrees; hold to keep spinning and release to finish the current half-turn. For deliberate body flips, hold V (controller RB; touch OLLIE + TRICK) with up/down. Ollie alone never triggers body flips. Land upright, within 25 degrees of forward or backward alignment, to score.
 - Phone: open the link (including from Telegram), turn landscape, and use the MOVE/LOOK joysticks with Ollie, Grind and Trick. Special appears after unlocking. In Classic mode, Up + Trick is a shove-it; Down + Trick is a grab. In Beginner mode, TRICK advances the sequence without directional input. Walking is in Menu. Fullscreen is available from the header where supported.
 - Classic shove-its: tap D 1-6 times quickly for 180/360/540/720/900/1080 degrees. On controller use Y; on touch flick MOVE up then tap TRICK repeatedly. Keep taps within 0.30 seconds; higher rotations need more airtime.
-- Phones automatically receive a lighter edition (about 182 MB); the desktop edition is about 275 MB. Phone browsers require WebGL 2 and ASTC texture support. Progress is stored in this browser on this device.
+- Phones automatically receive a lighter edition (about 223 MB); the desktop edition is about 316 MB. Phone browsers require WebGL 2 and ASTC texture support. Progress is stored in this browser on this device.
 
 ## Reporting a bug
 
@@ -18,7 +18,9 @@ Use **Report a bug** on the page, or share a screenshot/video and the **Copy deb
 
 If the browser closes or reloads during play, reopen this same link and use **Copy debug info**. A short, bounded history of game state and memory is saved locally and included from the previous visit. Runtime errors now say the game stopped rather than incorrectly reporting a loading failure. This diagnostic update does not claim to fix an unconfirmed device crash.
 
-Latest update: the soundtrack remembers the last song played on this browser/device. On the next visit, playback starts at the following track, wrapping from song seven to song one. Closing mid-song is supported; normal pause/resume stays on the same track.
+Latest update: a 40-view Home Turf audit adds 23 connected neighborhood amenities, a Southfield sea-view garden and 353 trees. New spaces include allotments, picnic groves, planted gardens, small courts and refreshment pavilions. Existing skateparks, courts, parking areas, the repaired garage and pedestrian routes retain their clearances. New bench and planter edges are grindable. The update passed 6,657 movement/grinding checks with zero failures and both mobile joystick policy checks.
+
+The soundtrack remembers the last song played on this browser/device. On the next visit, playback starts at the following track, wrapping from song seven to song one. Closing mid-song is supported; normal pause/resume stays on the same track.
 
 **W** performs a hop-turn while rolling backwards on the ground, preserving momentum while the camera moves behind Kori. It works in Classic and Beginner modes; holding W does not repeat it. Change the Turn binding in Settings if needed. Existing custom W bindings are preserved, with Turn assigned an unused key.
 
