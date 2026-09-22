@@ -1,27 +1,27 @@
 {
-  "tag": "playtest-2026-09-21-grounded-grinds",
+  "tag": "playtest-2026-09-21-town-variety",
   "url": "https://hyperkodi.github.io/kori-pro-skater-playtest/",
-  "archive_sha256": "54c8ef9f44f0ebd6ce47d16ecd7d976efa4dbcfd7796557b638c09217e499829",
+  "archive_sha256": "881ce042153ab0d105494714180098d1dbc7e02cfb01f208f5443ed994a58614",
   "files": {
     ".nojekyll": {
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
-    "Build/1a5d057b6a203ccdc16b243fb95b3c2d.data.unityweb": {
-      "bytes": 250151533,
-      "sha256": "f4191123171575087e6908474e2b72c98d0b4a6b56b8277ba5efb6166c754ae3"
+    "Build/0a9cad158cab8f3ec25465dad6d05181.wasm.unityweb": {
+      "bytes": 12224911,
+      "sha256": "05b24f1941aedd5f37a90557ad8989f3f14a9ef9b62ee0e026c2e2653798d1e0"
     },
-    "Build/95b68d4a66db8437cc6424557ceb6ccf.wasm.unityweb": {
-      "bytes": 12226818,
-      "sha256": "69eba05bee295ce2ffdef7a298a0b17d03cb676714e7461774fc364b76f00a70"
+    "Build/82b2ea5eca98a7ffeb3df91533d3da2e.data.unityweb": {
+      "bytes": 262864424,
+      "sha256": "845de0611ab9923048964bbf0de06330287c5b4ba1b2c05dce4fda1ad0127faa"
     },
-    "Build/ec66d09f4172caf1b8ba285f21166cb2.loader.js": {
+    "Build/b1c63e6d64073a75a0a8d223c46c3ab6.loader.js": {
       "bytes": 47867,
-      "sha256": "fe0fc285c30884cf54f8d4140559a45d6a8ebdda2f143e1a0ba83269f4f5636e"
+      "sha256": "2b071631513480131fa34d26ea042d121236e6f5e9dbff70224e6855cdcb230e"
     },
     "Build/fa646a860f6f157a0aebefa5ce9dd4a7.framework.js.unityweb": {
       "bytes": 89255,
-      "sha256": "ebfecd91151245220a68ceceb5fa3971b07afbeaffc902fdf49096d2a77b0110"
+      "sha256": "e4489803b62c1cd1c6d6c6bcf98a5d4e3d5aca6a2d36be7950be637db7454480"
     },
     "GeneralSans-FFL.txt": {
       "bytes": 12734,
@@ -32,28 +32,28 @@
       "sha256": "f5cfd05c1dafa77e944670528a81958f7c21b7517bafd2a8796a3aa17e56b9ce"
     },
     "index.html": {
-      "bytes": 12038,
-      "sha256": "5f839f1d5caaca2013e972fef7a2688461fae4ea57fea2cd22513900610817a0"
+      "bytes": 12035,
+      "sha256": "7a15d5de362a8b6549605cd470f2f900f487cdc6c951c1db09a3c9c9fb563f9b"
     },
-    "Mobile/Build/95b68d4a66db8437cc6424557ceb6ccf.wasm.unityweb": {
-      "bytes": 12226818,
-      "sha256": "69eba05bee295ce2ffdef7a298a0b17d03cb676714e7461774fc364b76f00a70"
+    "Mobile/Build/06e8b9307727ce8f2447378d0a6fc42d.data.unityweb": {
+      "bytes": 169764611,
+      "sha256": "e18892fd6523c196fa1298e3107b6a91eaf19a4d06a11d68c4a4d69a5bc15e96"
     },
-    "Mobile/Build/e2d7cd82aa01f7553bf8e4df87ca5ba8.data.unityweb": {
-      "bytes": 157210407,
-      "sha256": "c07d5bdb3004844497efd79fcee94d20c9b4d92cf94a6e8a8bd4367bd72c4662"
+    "Mobile/Build/0a9cad158cab8f3ec25465dad6d05181.wasm.unityweb": {
+      "bytes": 12224911,
+      "sha256": "05b24f1941aedd5f37a90557ad8989f3f14a9ef9b62ee0e026c2e2653798d1e0"
     },
-    "Mobile/Build/ec66d09f4172caf1b8ba285f21166cb2.loader.js": {
+    "Mobile/Build/b1c63e6d64073a75a0a8d223c46c3ab6.loader.js": {
       "bytes": 47867,
-      "sha256": "fe0fc285c30884cf54f8d4140559a45d6a8ebdda2f143e1a0ba83269f4f5636e"
+      "sha256": "2b071631513480131fa34d26ea042d121236e6f5e9dbff70224e6855cdcb230e"
     },
     "Mobile/Build/fa646a860f6f157a0aebefa5ce9dd4a7.framework.js.unityweb": {
       "bytes": 89255,
-      "sha256": "ebfecd91151245220a68ceceb5fa3971b07afbeaffc902fdf49096d2a77b0110"
+      "sha256": "e4489803b62c1cd1c6d6c6bcf98a5d4e3d5aca6a2d36be7950be637db7454480"
     },
     "mobile-build.json": {
       "bytes": 310,
-      "sha256": "da9acccd5d844e55473edbb0bf7b7db806587ba467b5ce17f4f1a4cf173639a1"
+      "sha256": "8f5bac801ddb61d0039d091238824350ed0b8b9287b5b3909b8071127409a68f"
     },
     "PermanentMarker-LICENSE.txt": {
       "bytes": 11358,
@@ -64,8 +64,8 @@
       "sha256": "28f82c8a7943cb8e9d599f8554da1d4fc75dbcf69b9885ad6c0611d20c6946c5"
     },
     "playtest.js": {
-      "bytes": 1379,
-      "sha256": "c49be17bda7906e380ec44a11c2feff0045d95f6db151521164b649466b8a535"
+      "bytes": 1376,
+      "sha256": "d422d45ee56b6db0b1bd1684c4b66d00975fbd47973d4f47c4fca2ec29f6232f"
     },
     "preview.png": {
       "bytes": 1214318,
