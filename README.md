@@ -18,7 +18,9 @@ Use **Report a bug** on the page, or share a screenshot/video and the **Copy deb
 
 If the browser closes or reloads during play, reopen this same link and use **Copy debug info**. A short, bounded history of game state and memory is saved locally and included from the previous visit. Runtime errors now say the game stopped rather than incorrectly reporting a loading failure. This diagnostic update does not claim to fix an unconfirmed device crash.
 
-Latest update: **W** performs a hop-turn while rolling backwards on the ground, preserving momentum while the camera moves behind Kori. It works in Classic and Beginner modes; holding W does not repeat it. Change the Turn binding in Settings if needed. Existing custom W bindings are preserved, with Turn assigned an unused key.
+Latest update: the soundtrack remembers the last song played on this browser/device. On the next visit, playback starts at the following track, wrapping from song seven to song one. Closing mid-song is supported; normal pause/resume stays on the same track.
+
+**W** performs a hop-turn while rolling backwards on the ground, preserving momentum while the camera moves behind Kori. It works in Classic and Beginner modes; holding W does not repeat it. Change the Turn binding in Settings if needed. Existing custom W bindings are preserved, with Turn assigned an unused key.
 
 Trick unlocks now announce themselves with an animated banner without pausing. Choose **TRICK MODE: BEGINNER** in the main/pause menu for a ten-trick sequence using only the Flip button (keyboard A, controller B, touch TRICK). Each press queues one animation while airborne; banking or losing the combo restarts at PUP FLIP. The trick book lists the full sequence. Classic retains directional tricks. Beginner five-minute practice has a separate personal best and does not submit to the Classic leaderboard; mode cannot change during a timed attempt.
 
