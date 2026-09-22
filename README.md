@@ -6,7 +6,7 @@ This is a standalone Home Turf playtest for the Kori community. It is separate f
 
 ## Playing
 
-- Desktop: arrow keys to skate, hold/release Space to ollie, A flips, S grinds, D shove-its, F unlocked specials, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
+- Desktop: arrow keys to skate, hold/release Space to ollie, A flips, S grinds, D shove-its, F unlocked specials, W backward hop-turn, G on/off board, N map, Escape pause. The in-game lesson explains trick sequences.
 - Classic aerials: tap left/right in the air for 180 degrees; hold to keep spinning and release to finish the current half-turn. For deliberate body flips, hold V (controller RB; touch OLLIE + TRICK) with up/down. Ollie alone never triggers body flips. Land upright, within 25 degrees of forward or backward alignment, to score.
 - Phone: open the link (including from Telegram), turn landscape, and use the MOVE/LOOK joysticks with Ollie, Grind and Trick. Special appears after unlocking. In Classic mode, Up + Trick is a shove-it; Down + Trick is a grab. In Beginner mode, TRICK advances the sequence without directional input. Walking is in Menu. Fullscreen is available from the header where supported.
 - Classic shove-its: tap D 1-6 times quickly for 180/360/540/720/900/1080 degrees. On controller use Y; on touch flick MOVE up then tap TRICK repeatedly. Keep taps within 0.30 seconds; higher rotations need more airtime.
@@ -18,9 +18,11 @@ Use **Report a bug** on the page, or share a screenshot/video and the **Copy deb
 
 If the browser closes or reloads during play, reopen this same link and use **Copy debug info**. A short, bounded history of game state and memory is saved locally and included from the previous visit. Runtime errors now say the game stopped rather than incorrectly reporting a loading failure. This diagnostic update does not claim to fix an unconfirmed device crash.
 
-Latest update: trick unlocks now announce themselves with an animated banner without pausing. Choose **TRICK MODE: BEGINNER** in the main/pause menu for a ten-trick sequence using only the Flip button (keyboard A, controller B, touch TRICK). Each press queues one animation while airborne; banking or losing the combo restarts at PUP FLIP. The trick book lists the full sequence. Classic retains directional tricks. Beginner five-minute practice has a separate personal best and does not submit to the Classic leaderboard; mode cannot change during a timed attempt.
+Latest update: **W** performs a hop-turn while rolling backwards on the ground, preserving momentum while the camera moves behind Kori. It works in Classic and Beginner modes; holding W does not repeat it. Change the Turn binding in Settings if needed. Existing custom W bindings are preserved, with Turn assigned an unused key.
 
-Backward transition landings now give Kori a visible hop-turn on the rolling board, with the camera moving behind him and steering aligned during the camera orbit. Goal and combo-bank sounds are quieter. The release passed 241 feature checks and 6,543 movement/grind checks. It retains the 94 varied homes, eight vehicle families, 82 replaced parked cars, seven gardens, grounded curb grinds and twice-speed balance difficulty. Physical iPhone Telegram crash confirmation remains pending.
+Trick unlocks now announce themselves with an animated banner without pausing. Choose **TRICK MODE: BEGINNER** in the main/pause menu for a ten-trick sequence using only the Flip button (keyboard A, controller B, touch TRICK). Each press queues one animation while airborne; banking or losing the combo restarts at PUP FLIP. The trick book lists the full sequence. Classic retains directional tricks. Beginner five-minute practice has a separate personal best and does not submit to the Classic leaderboard; mode cannot change during a timed attempt.
+
+Backward transition landings now give Kori a visible hop-turn on the rolling board, with the camera moving behind him and steering aligned during the camera orbit. Goal and combo-bank sounds are quieter. The W-turn update passed 259 feature checks and both joystick policy tests. The preceding release also passed 6,543 movement/grind regression checks. It retains the 94 varied homes, eight vehicle families, 82 replaced parked cars, seven gardens, grounded curb grinds and twice-speed balance difficulty. Physical iPhone Telegram crash confirmation remains pending.
 
 ## Publishing
 
